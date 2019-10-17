@@ -1,0 +1,49 @@
+*{
+    margin: auto;
+    align-content: center;
+}
+
+  
+    body {
+     background-color: burlywood;
+    color: burlywood;
+    
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: burlywood;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    padding: 5%;
+
+}
+
+.live-news{
+    margin: auto;
+    text-align: center;   
+   }
+
+h3{
+    margin: 0 auto;
+    font-family:  sans-serif;
+    color: black;
+    font-size: 100%; 
+    width: 50%;
+    
+}
+ p{ font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    font-weight: lighter;
+    color: black;
+   width: 50%;
+   
+   
+ }
+
+img{
+    padding-bottom: 3%;
+}
