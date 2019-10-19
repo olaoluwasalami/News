@@ -8,7 +8,7 @@ const displayNews = () => {
                for (var i = 0; i < 6; i++) {                       
                 $('.live-news').append('<h3>' + response.articles[i].title + '</h3>  ');
                 $('.live-news').append('<p> ' + response.articles[i].description + ' </p>');
-                 $('.live-news').append('<img src=" ' + response.articles[i].urlToImage + '" width="200px"; height="200px"/>');
+                 $('.live-news').append('<img src=" ' + response.articles[i].urlToImage + '"/>');
             }},       
         error: (err) => {
              $('.live-news').text(err.responseText);
