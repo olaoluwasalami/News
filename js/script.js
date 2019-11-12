@@ -4,6 +4,7 @@ const displayNews = () => {
         url: url,        
         method: 'GET',        
         success: function (response) {
+            console.log('response')
               $('.live-news').text('');
                for (var i = 0; i < 9; i++) {                       
                 $('.live-news').append('<h3>' + response.articles[i].title + '</h3>  ');
